@@ -1,0 +1,29 @@
+{
+  "name": "co2-webpack-plugin",
+  "version": "1.0.0",
+  "description": "A webpack plugin to emit an emissions artifact to chart compiled code against",
+  "files": [
+    "index.js",
+    "*.md",
+    "package.json"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "author": "Adam Wirth <adamowirth@gmail.com>",
+  "keywords": [
+    "emissions",
+    "carbon",
+    "green",
+    "webpack",
+    "plugin",
+    "artifact",
+    "asset",
+    "build"
+  ],
+  "scripts": {
+    "start": "webpack"
+  },
+  "dependencies": {
+    "@tgwf/co2": "~0.16.0"
+  }
+}
