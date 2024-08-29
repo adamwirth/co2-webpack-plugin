@@ -6,3 +6,8 @@
 node_modules/
 test/
 ./*~
+package-lock.json
+
+webpack.config.js
+src/
+dist/
