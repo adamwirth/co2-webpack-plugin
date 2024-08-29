@@ -59,7 +59,7 @@ class CO2Plugin {
           return false;
         }
 
-        console.log('This is a CO2.js plugin!');
+        console.debug('This is a CO2.js plugin!');
 
         const { RawSource } = compiler.webpack.sources;
 
@@ -83,7 +83,7 @@ class CO2Plugin {
         return;
       }
 
-      console.log('This is a CO2.js plugin!');
+      console.debug('This is a CO2.js plugin!');
 
       const outputFileSystem = compiler.outputFileSystem;
       const outputPath = compiler.options.output.path;
