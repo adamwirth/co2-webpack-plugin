@@ -6,3 +6,8 @@
 node_modules/
 test/
 ./*~
+.env*
+
+webpack.config.js
+src/
+dist/
