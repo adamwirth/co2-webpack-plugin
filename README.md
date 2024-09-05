@@ -26,7 +26,22 @@ yarn add --dev co2-webpack-plugin
 ## Example usage
 
 ```javascript
-// webpack.config.js
+// webpack.config.js (ESM)
+import Co2WebpackPlugin from 'co2-webpack-plugin';
+
+export default {
+  // ...
+  plugins: [
+    new Co2WebpackPlugin({
+      country: 'USA'
+
+    }),
+  ],
+};
+```
+
+```javascript
+// webpack.config.js (CommonJS)
 const Co2WebpackPlugin = require('co2-webpack-plugin');
 
 module.exports = {

@@ -12,7 +12,11 @@
     "type": "git",
     "url": "https://github.com/adamwirth/co2-webpack-plugin.git"
   },
-  "main": "index.js",
+  "exports": "./index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "type": "module",
   "license": "MIT",
   "author": "Adam Wirth <adamowirth@gmail.com>",
   "keywords": [
@@ -26,9 +30,20 @@
     "build"
   ],
   "scripts": {
-    "start": "webpack"
+    "test": "webpack build"
   },
   "dependencies": {
     "@tgwf/co2": "~0.16.0"
+  },
+  "devDependencies": {
+    "webpack-cli": ">=4.5.x"
+  },
+  "peerDependencies": {
+    "webpack": ">=5.20.x"
+  },
+  "peerDependenciesMeta": {
+    "webpack": {
+      "optional": true
+    }
   }
 }

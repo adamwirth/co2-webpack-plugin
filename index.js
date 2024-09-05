@@ -1,5 +1,5 @@
-const { averageIntensity } = require('@tgwf/co2');
-const { validate } = require('schema-utils');
+import { averageIntensity } from '@tgwf/co2';
+import { validate } from 'schema-utils';
 
 // Schema for the options object
 const schema = {
@@ -127,4 +127,4 @@ class CO2Plugin {
   }
 }
 
-module.exports = { CO2Plugin };
+export { CO2Plugin };
