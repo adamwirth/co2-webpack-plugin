@@ -1,6 +1,6 @@
 {
   "name": "co2-webpack-plugin",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A webpack plugin to emit an emissions artifact to chart compiled code against",
   "files": [
     "index.js",
@@ -33,7 +33,7 @@
     "test": "webpack build"
   },
   "dependencies": {
-    "@tgwf/co2": "~0.16.0"
+    "@tgwf/co2": "~0.16.9"
   },
   "devDependencies": {
     "webpack-cli": ">=4.5.x"
