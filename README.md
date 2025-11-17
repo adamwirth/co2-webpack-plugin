@@ -33,8 +33,7 @@ export default {
   // ...
   plugins: [
     new Co2WebpackPlugin({
-      country: 'USA'
-
+      country: 'USA',
     }),
   ],
 };
@@ -48,8 +47,7 @@ module.exports = {
   // ...
   plugins: [
     new Co2WebpackPlugin({
-      country: 'USA'
-
+      country: 'USA',
     }),
   ],
 };
