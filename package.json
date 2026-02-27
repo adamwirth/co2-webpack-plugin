@@ -33,7 +33,7 @@
     "test": "webpack build"
   },
   "dependencies": {
-    "@tgwf/co2": "~0.17.0"
+    "@tgwf/co2": "~0.18.0"
   },
   "devDependencies": {
     "webpack-cli": ">=4.5.x"
